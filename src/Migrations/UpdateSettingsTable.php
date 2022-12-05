@@ -8,7 +8,7 @@
  */
 namespace Novalnet\Migrations;
 
-use Novalnet\Models\TransactionLog;
+use Novalnet\Models\Settings;
 use Plenty\Modules\Plugin\DataBase\Contracts\Migrate;
 
 /**
@@ -25,7 +25,6 @@ class UpdateSettingsTable
      */
     public function run(Migrate $migrate)
     {
-        $migrate->deleteTable(Settings::class);
-        $migrate->CreateTable(Settings::class);
+        $migrate->UpdateTable(Settings::class);
     }
 }
