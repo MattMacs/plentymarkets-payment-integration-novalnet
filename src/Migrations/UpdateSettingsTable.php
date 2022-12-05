@@ -25,6 +25,7 @@ class UpdateSettingsTable
      */
     public function run(Migrate $migrate)
     {
-        $migrate->updateTable(Settings::class);
+        $migrate->deleteTable(Settings::class);
+        $migrate->CreateTable(Settings::class);
     }
 }
