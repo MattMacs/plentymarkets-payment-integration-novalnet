@@ -8,7 +8,7 @@
  */
 namespace Novalnet\Migrations;
 
-use Novalnet\Models\TransactionLog;
+use Novalnet\Models\Settings;
 use Plenty\Modules\Plugin\DataBase\Contracts\Migrate;
 
 /**
