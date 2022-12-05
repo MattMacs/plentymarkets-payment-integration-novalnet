@@ -12,11 +12,11 @@ use Novalnet\Models\Settings;
 use Plenty\Modules\Plugin\DataBase\Contracts\Migrate;
 
 /**
- * Class CreateSettingsTable1201
+ * Class CreateSettingsTable
  *
  * @package Novalnet\Migrations
  */
-class CreateSettingsTable1201
+class CreateSettingsTable
 {
     /**
      * Create transaction log table
