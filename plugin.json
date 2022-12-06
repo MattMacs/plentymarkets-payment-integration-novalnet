@@ -35,8 +35,7 @@
         "Novalnet\\Migrations\\CreateNovalnetPaymentMethods1200",
         "Novalnet\\Migrations\\CreateTransactionTable",
         "Novalnet\\Migrations\\UpdateTransactionTableDataType",
-        "Novalnet\\Migrations\\CreateSettingsTable",
-        "Novalnet\\Migrations\\UpdateSettingsTable"
+        "Novalnet\\Migrations\\CreateSettingsTable"
     ],
     "dataProviders": [
         {
